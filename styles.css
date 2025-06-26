@@ -1,0 +1,93 @@
+* {
+    background-color: aliceblue;
+}
+
+#title {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.totalPrice {
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#totalPriceInput {
+    display: block;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.totalTip {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#tipInput {
+    display: block;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+}
+
+#calculate {
+    display: flex;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+#calculate:hover {
+    background-color: lightgreen;
+}
+
+#reset {
+    display: flex;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: darkred;
+}
+
+#output {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 100px;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 160px 20px;
+}
