@@ -14,9 +14,10 @@ function calculate() {
     } else if (isNaN(totalPriceInput) && isNaN(tipInput)) {
         alert("Please enter only numbers, not letters or words!");
         return;
+    } else {
+        output.innerHTML = `The total cost is ${totalPriceInput + tipInput} dollars`;
+        return;
     }
-
-    output.innerHTML = `The total cost is ${totalPriceInput} + ${tipInput} dollars`;
 }
 
 function reset() {
