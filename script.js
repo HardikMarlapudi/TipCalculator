@@ -1,12 +1,7 @@
-let totalPriceInput = document.getElementById("totalPriceInput").value;
-let tipInput = document.getElementById("tipInput").value;
-let output = document.getElementById("output");
-
 function calculate() {
 
     let totalPriceInput = document.getElementById("totalPriceInput").value;
     let tipInput = document.getElementById("tipInput").value;
-    let output = document.getElementById("output");
 
     if (totalPriceInput === "" && tipInput === "") {
         alert("Please enter your values!");
@@ -15,8 +10,13 @@ function calculate() {
         alert("Please enter only numbers, not letters or words!");
         return;
     } else {
-        output === `${totalPriceInput + tipInput}`;
-        output.innerHTML = `The total is $${output} dollars`;
+        let totalPriceInput = document.getElementById("totalPriceInput").value;
+        let tipInput = document.getElementById("tipInput").value;
+        let output = document.getElementById("output");
+
+        output === totalPriceInput + tipInput;
+
+        output.innerHTML = `The total is $${Math.random (totalPriceInput + tipInput) / 100} dollars`;
         return;
     }
 }
