@@ -3,20 +3,20 @@
 }
 
 #title {
-    display: block;
     text-align: center;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .totalPrice {
+    text-align: center;
     font-size: 15px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 
 #totalPriceInput {
-    display: block;
+    text-align: center;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -25,13 +25,15 @@
 }
 
 .totalTip {
+    text-align: center;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 
 #tipInput {
-    display: block;
+    text-align: center;
+    position: relative;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -40,12 +42,12 @@
 }
 
 .buttons {
-    display: flex;
+    text-align: center;
     gap: 5px;
+    padding: 5px;
 }
 
 #calculate {
-    display: flex;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
@@ -60,7 +62,6 @@
 }
 
 #reset {
-    display: flex;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
@@ -75,7 +76,6 @@
 }
 
 #output {
-    display: block;
     text-align: center;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -84,10 +84,10 @@
 }
 
 footer {
-    display: block;
-    text-align: center;
+    top: 280px;
+    position: relative;
     font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    padding: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }

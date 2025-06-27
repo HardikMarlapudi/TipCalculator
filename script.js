@@ -15,12 +15,14 @@ function calculate() {
         alert("Please enter only numbers, not letters or words!");
         return;
     } else {
-        output.innerHTML = `The total cost is ${totalPriceInput + tipInput} dollars`;
+        output === `${totalPriceInput + tipInput}`;
+        output.innerHTML = `The total is $${output} dollars`;
         return;
     }
 }
 
 function reset() {
+    
     let totalPriceInput = document.getElementById("totalPriceInput").value;
     let tipInput = document.getElementById("tipInput").value;
     let reset = document.getElementById("reset").onclick;
