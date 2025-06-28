@@ -12,11 +12,13 @@ function calculate() {
     } else {
         let totalPriceInput = document.getElementById("totalPriceInput").value;
         let tipInput = document.getElementById("tipInput").value;
+        let tipAmount = document.getElementById("tipAmount");
         let output = document.getElementById("output");
 
         output === totalPriceInput + tipInput;
 
-        output.innerHTML = `The total is $${Math.random (totalPriceInput + tipInput) / 100} dollars`;
+        tipAmount.innerHTML = `Tip amount $${tipInput} dollars`;
+        output.innerHTML = `The total price is $${parseFloat(totalPriceInput) + parseFloat(tipInput)} dollars`;
         return;
     }
 }
@@ -31,10 +33,12 @@ function reset() {
     if(document.getElementById("reset").onclick) {
         document.getElementById("totalPriceInput").value = "";
         document.getElementById("tipInput").value = "";
+        document.getElementById("tipAmount").innerHTML = "";
         document.getElementById("output").innerHTML = "";
     } else if(reset.onclick()) {
         totalPriceInput === "";
         tipInput === "";
+        tipAmount === "";
         output === "";
     }
 }
