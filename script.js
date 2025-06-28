@@ -9,6 +9,9 @@ function calculate() {
     } else if (isNaN(totalPriceInput) && isNaN(tipInput) || isNaN(totalPriceInput) || isNaN(tipInput)) {
         alert("Please enter only numbers, not letters or words!");
         return;
+    } else if (tipInput <= 0) {
+        alert("Please enter a valid tip!");
+        return;
     } else {
         let totalPriceInput = document.getElementById("totalPriceInput").value;
         let tipInput = document.getElementById("tipInput").value;
