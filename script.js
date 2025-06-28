@@ -6,7 +6,7 @@ function calculate() {
     if (totalPriceInput === "" && tipInput === "") {
         alert("Please enter your values!");
         return;
-    } else if (isNaN(totalPriceInput) && isNaN(tipInput)) {
+    } else if (isNaN(totalPriceInput) && isNaN(tipInput) || isNaN(totalPriceInput) || isNaN(tipInput)) {
         alert("Please enter only numbers, not letters or words!");
         return;
     } else {
